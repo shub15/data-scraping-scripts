@@ -40,6 +40,12 @@ bash sp500_companies.sh
 <br>
 
 # 2nd round Readme:
+### Connect to the Rfam database on the command line:
+```
+mysql --user rfamro --host mysql-rfam-public.ebi.ac.uk --port 4497 --database Rfam
+```
+
+### Then run the queries:
 ```
 source queries.sql
 ```
